@@ -8,6 +8,7 @@ import (
 func main() {
 	datatypeBasic()
 	bitWiseOperator()
+	stringDatatype()
 }
 
 func datatypeBasic() {
@@ -57,4 +58,25 @@ func bitWiseOperator() {
 		a<<4, // 1010 << 4 becomes 10100000 (notice it's shifted 4 with padded 0)
 		a>>1, // 1010 >> 1 becomes 101
 	)
+}
+
+func stringDatatype() {
+	fmt.Println("\n=== string datatype ===")
+
+	// String represents any UTF-8 character
+	myStr := "this is a string"
+	myStr2 := ", great!"
+	helper.PrintValueType(myStr,
+		myStr[0],         // will get the byte data. have to be converted back to string
+		string(myStr[5]), // convert byte back to string
+		myStr+myStr2,     // string concatenate
+		[]byte(myStr),    // convert string to slices of byte (byte alias of uint8)
+	)
+
+	// Rune represents any UTF-32 character
+	var myRune rune = 64 // default : 0
+	helper.PrintValueType(
+		myRune, // rune is an alias of int32
+	)
+
 }
