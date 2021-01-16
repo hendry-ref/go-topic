@@ -4,7 +4,7 @@ import "fmt"
 
 func PrintValueType(data ...interface{}) {
 	for _, d := range data {
-		fmt.Printf("%v [%T]\n", d, d)
+		fmt.Printf("%v => type : %T\n", d, d)
 	}
 
 }

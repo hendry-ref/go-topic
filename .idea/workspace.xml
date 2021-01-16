@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0b91c6c1-961d-4296-b07a-f692c011ec50" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/references/datatypes_ref.go" beforeDir="false" afterPath="$PROJECT_DIR$/references/datatypes_ref.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/printformatter.go" beforeDir="false" afterPath="$PROJECT_DIR$/helper/printformatter.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/references/constant_ref.go" beforeDir="false" afterPath="$PROJECT_DIR$/references/constant_ref.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,16 +50,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/hendry-ref/golang-topic/references (2)">
-    <configuration name="go build github.com/hendry-ref/golang-topic" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="golang-topic" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/main.go" />
-      <package value="github.com/hendry-ref/golang-topic" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build github.com/hendry-ref/golang-topic/references (4)">
     <configuration name="go build github.com/hendry-ref/golang-topic/references (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golang-topic" />
       <working_directory value="$PROJECT_DIR$" />
@@ -77,6 +69,24 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build github.com/hendry-ref/golang-topic/references (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="golang-topic" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/references/constant_ref.go" />
+      <package value="github.com/hendry-ref/golang-topic/references" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/hendry-ref/golang-topic/references (4)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="golang-topic" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/references/arrayslice_ref.go" />
+      <package value="github.com/hendry-ref/golang-topic/references" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build github.com/hendry-ref/golang-topic/references" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golang-topic" />
       <working_directory value="$PROJECT_DIR$" />
@@ -88,10 +98,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/hendry-ref/golang-topic/references (4)" />
+        <item itemvalue="Go Build.go build github.com/hendry-ref/golang-topic/references (3)" />
         <item itemvalue="Go Build.go build github.com/hendry-ref/golang-topic/references (2)" />
         <item itemvalue="Go Build.go build github.com/hendry-ref/golang-topic/references" />
         <item itemvalue="Go Build.go build github.com/hendry-ref/golang-topic/references (1)" />
-        <item itemvalue="Go Build.go build github.com/hendry-ref/golang-topic" />
       </list>
     </recent_temporary>
   </component>
@@ -109,6 +120,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
