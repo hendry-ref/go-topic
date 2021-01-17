@@ -13,11 +13,11 @@ func main() {
 
 func datatypeBasic() {
 	fmt.Println("\n=== datatype basic ===")
-	var theBool bool = true        // default: false
-	var theString string = "Hello" // default : ""
+	var theBool = true      // default: false
+	var theString = "Hello" // default : ""
 
 	// int and int8 cannot be combined in operation (+,-,%,*,/)
-	var theInt int = 1      // default : 0 , 32 for 32-bit system, 64 for 64-bit system
+	var theInt = 1          // default : 0 , 32 for 32-bit system, 64 for 64-bit system
 	var theInt8 int8 = 8    // -128 to 127
 	var theInt16 int16 = 16 // -32,768 to 32,767
 	var theInt32 int32 = 32 // -2,147,483,648 to 2,147,483,647
@@ -29,11 +29,11 @@ func datatypeBasic() {
 
 	// floating number
 	var theFloat32 float32 = 32.32 // default : 0
-	var theFloat64 float64 = 64.64
+	var theFloat64 = 64.64
 
 	// complex number
 	var theComplex64 complex64 = 64 + 64.5i // default : 0+0i
-	var theComplex128 complex128 = 128 + 128.5i
+	var theComplex128 = 128 + 128.5i
 	var myComplex complex64 = complex(10, 10.5) // real and imag number is provided
 
 	// console printing

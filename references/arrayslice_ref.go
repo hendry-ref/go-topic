@@ -20,14 +20,20 @@ func arrayBasic() {
 	theArrFixed := [5]int{10, 20, 30, 40}
 	theArrDynamic := [...]string{"hendry", "robert", "john"}
 
-	// slice is dynamically generated size
+	// slice is dynamically generated size (it's backed by array)
 	// slice has both length (actual current data) and capacity (the total capacity)
 	// <name> := []<type>{<data>}
+	// #1 - literal way
 	theSlice := []float64{3.14, 1.23, 4.67}
+
+	// #2 - using make(...)
+	theSliceMake := make([]int, 10, 100) // with len = 10, cap = 100 , all defaulted to 0 (int)
+
 	helper.PrintValueType(
 		theArrFixed, len(theArrFixed),
 		theArrDynamic, theArrDynamic[0], len(theArrDynamic),
 		theSlice, len(theSlice), cap(theSlice),
+		theSliceMake, len(theSliceMake), cap(theSliceMake),
 	)
 }
 

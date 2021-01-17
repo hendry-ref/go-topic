@@ -8,8 +8,8 @@ import (
 // enumerated constant
 const (
 	// for quickly assign incremental integer (0...n), we can use iota
-	_ = iota // for unassigned (default int=0), we need to assign 'error' to it
-	catSpecialist          //iota is scoped to constant block
+	_             = iota // for unassigned (default int=0), we need to assign 'error' to it
+	catSpecialist        //iota is scoped to constant block
 	dogSpecialist
 	snakeSpecialist
 
@@ -22,7 +22,7 @@ const (
 
 // file size constant
 const (
-	_ = iota
+	_  = iota
 	KB = 1 << (10 * iota)
 	MB
 	GB
@@ -67,8 +67,8 @@ func constFileSize() {
 		PB,
 		EZ,
 		//YB,
-		)
-	fmt.Printf("%.2fGB\n" , fileSize/GB)
+	)
+	fmt.Printf("%.2fGB\n", fileSize/GB)
 }
 
 func main() {
